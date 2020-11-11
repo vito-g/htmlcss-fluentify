@@ -17,6 +17,9 @@ header {
   font-size: 10px;
 } */
 
+.sup {
+  background-color: green;
+}
 
 .box-sx {
   width: 60%;
@@ -28,4 +31,15 @@ header {
   width: 40%;
   height: 30px;
   background-color: lightgrey;
+}
+
+
+.fl {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
