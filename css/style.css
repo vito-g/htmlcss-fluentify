@@ -5,7 +5,7 @@
 }
 
 header {
-  /* height: 400px; */
+  height: 400px;
   background-color: rgb(12,50,90);
   color: white;
   font-family: sans-serif;
@@ -22,14 +22,27 @@ header {
 }
 
 .box-sx {
-  width: 60%;
-  height: 30px;
+  width: 55%;
+  height:51.6px;
   background-color: grey;
 }
 
+
+
+li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 10px;
+  line-height: 50px;
+}
+
+.logo {
+  padding: 5px 50px;
+}
+
 .box-dx {
-  width: 40%;
-  height: 30px;
+  width: 45%;
+  height:51.6px;
   background-color: lightgrey;
 }
 
@@ -37,6 +50,11 @@ header {
 .fl {
   float: left;
 }
+
+.fr {
+  float: right;
+}
+
 
 .clearfix::after {
   content: "";
