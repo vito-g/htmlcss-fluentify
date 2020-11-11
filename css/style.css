@@ -29,7 +29,14 @@ header {
 
 
 
-li {
+.fr ul li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 10px;
+  line-height: 50px;
+}
+
+.fl ul li {
   display: inline-block;
   padding: 0 20px;
   font-size: 10px;
@@ -45,6 +52,12 @@ li {
   height:51.6px;
   background-color: lightgrey;
 }
+
+nav.dx {
+  text-align: center;
+}
+
+
 
 
 .fl {
