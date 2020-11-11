@@ -5,8 +5,27 @@
 }
 
 header {
-  height: 400px;
+  /* height: 400px; */
   background-color: rgb(12,50,90);
   color: white;
   font-family: sans-serif;
+}
+
+/* li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 10px;
+} */
+
+
+.box-sx {
+  width: 60%;
+  height: 30px;
+  background-color: grey;
+}
+
+.box-dx {
+  width: 40%;
+  height: 30px;
+  background-color: lightgrey;
 }
