@@ -18,13 +18,13 @@ header {
 } */
 
 .sup {
-  background-color: green;
+  /* background-color: green; */
 }
 
 .box-sx {
   width: 55%;
   height:51.6px;
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 
@@ -50,14 +50,43 @@ header {
 .box-dx {
   width: 45%;
   height:51.6px;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
 }
 
 nav.dx {
   text-align: center;
 }
 
+button {
+  padding: 5px 30px;
+  border-radius: 5px;
+}
 
+button {
+  cursor: pointer;
+}
+
+li:nth-child(2) > button {
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+li:last-child > button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(124,187,2);
+  border: 1px solid rgb(124,187,2);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
 
 
 .fl {
@@ -82,5 +111,4 @@ nav.dx {
 .men-talking img{
   width: 100%;
   padding-top: 60px;
-
 }
