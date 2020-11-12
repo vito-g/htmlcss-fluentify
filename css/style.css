@@ -215,7 +215,7 @@ footer {
 
 footer h3 {
   position: absolute;
-  padding-left: 155px;
+  padding: 0 155px;
   line-height: 130px;
 
 }
