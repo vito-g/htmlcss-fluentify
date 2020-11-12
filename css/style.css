@@ -13,7 +13,7 @@ header {
 
 li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 10px 20px;
   font-size: 10px;
   line-height: 50px
 }
@@ -35,17 +35,17 @@ a {
 
 .fl:first-child {
   width: 55%;
-  height:50px;
+  /* height:50px; */
   /* background-color: grey; */
 }
 
 .logo {
-  padding: 5px 50px;
+  padding: 10px 50px;
 }
 
 .fl:last-child {
   width: 45%;
-  height:50px;
+  /* height:50px; */
   /* background-color: lightgrey; */
 }
 
