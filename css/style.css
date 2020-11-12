@@ -140,3 +140,15 @@ li:last-child > button {
   font-weight: 10;
   padding-top: 10px;
 }
+
+main {
+  background-color: red;
+}
+
+main .box {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+  background-color: black;
+  border: 1px solid white;
+}
