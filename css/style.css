@@ -4,11 +4,14 @@
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 header {
-  /* height: 400px; */
   background-color: rgb(12,50,90);
   color: white;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
 }
 
 li {
@@ -109,4 +112,31 @@ li:last-child > button {
   background-color: rgb(124,187,2);
   border: 1px solid rgb(124,187,2);
   text-transform: uppercase;
+}
+
+.header-girth {
+  height: 130px;
+  background-color: rgb(211,211,211);
+  clear: right;
+}
+
+.header-girth {
+  position: relative;
+  text-align: center;
+}
+
+.header-girth .warning  {
+  font-size: 25px;
+  font-weight: 550;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-girth .recommendation {
+  font-size: 18px;
+  font-weight: 10;
+  padding-top: 10px;
 }
