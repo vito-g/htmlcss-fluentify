@@ -85,3 +85,28 @@ li:last-child > button {
   width: 100%;
   padding-top: 60px;
 }
+
+.bottom {
+  position: relative;
+}
+
+.claim {
+  position: absolute;
+  left: 155px;
+  top: 40%;
+  transform: translate(0%, -50%);
+}
+
+.claim span {
+  font-size: 55px;
+}
+
+.plan button {
+  margin-top: 25px;
+  padding:15px 15px;
+  border: none;
+  color: white;
+  background-color: rgb(124,187,2);
+  border: 1px solid rgb(124,187,2);
+  text-transform: uppercase;
+}
