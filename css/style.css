@@ -176,7 +176,7 @@ main .top .box {
 }
 
 main .bottom {
-  background-color: red;
+  /* background-color: red; */
 }
 
 main .bottom .box {
@@ -203,4 +203,19 @@ main .bottom .read.box {
   line-height: 50px;
   color: lightgrey;
   text-decoration: underline;
+}
+
+footer {
+  height: 130px;
+  background-color: rgb(211,211,211);
+  position: relative;
+  text-align: left;
+
+}
+
+footer h3 {
+  position: absolute;
+  padding-left: 155px;
+  line-height: 130px;
+
 }
